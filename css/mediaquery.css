@@ -1,0 +1,360 @@
+/* --------------------------------------------------------------------------
+ * File        : mediaquery.css
+ * Version     : 1.0
+ * Author      : Indonez Team
+ * Author URI  : http://indonez.com
+ *
+ * Indonez Copyright 2015 All Rights Reserved.
+ * -------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------
+   
+   [Table of contents]
+   1. wxga display
+   2. tablet landscape
+   3. tablet portrait
+   4. mobile landscape
+   5. mobile portrait
+
+------------------------------------------------------------------ */
+
+/* [ 1. wxga display ] */
+@media screen and (max-width: 1366px) {
+    #slideshow-container2 {
+        height: 758px !important;
+    }
+    .idz-award-logo img {
+        width: 46.5% !important;
+    }
+}
+
+
+/* [ 2. tablet landscape ] */
+
+@media only screen and (max-width:1024px) {
+    header {
+        background: #fff url(../images/header_ornament.png) no-repeat -30% 0 !important;
+    }
+    #slideshow-container2 ul.uk-slideshow-items {
+        height: 758px !important;
+    }
+    .idz-award-logo img {
+        width: 49%;
+    }
+    .idz-footer-download a:first-child {
+        top: 59px !important;
+        left: 23% !important;
+    }
+    .idz-footer-download a:last-child {
+        top: 20px !important;      
+        right: -60% !important;
+    }
+    footer {
+        background: #37474f url(../images/footer_ornament.png) no-repeat -30% 100% !important;    
+    }
+    .idz-hero-image {
+        top: -75px !important;
+        right: -31px !important;
+        margin-bottom: -50px !important;
+    }
+    .idz-award-logo.small {
+        margin-bottom: 3px !important;
+    }
+    .idz-award-logo.small img {
+        width: 111px !important;
+        margin-top: 3px !important;
+    }
+    .idz-line-chart1 {
+        width: 110px !important;
+    }
+    .idz-line-chart2 {
+        height: 110px !important;
+    }
+    .idz-special-content {
+        margin: 0 -31px -31px -31px !important;
+    }
+    .idz-progress h6 {
+        padding: 4px 20px 11px 20px !important;
+    }
+    .idz-stocks-fee {
+        margin-top: -80px !important;
+    }
+    .uk-card-body .idz-stocks-fee {
+        margin-top: 0px !important;
+    }
+}
+
+
+/* [ 3. tablet potrait ] */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    header .phone-number h2{
+        margin-left: 0px !important;
+    }
+    #slideshow-container ul.uk-slideshow-items {
+        height: 500px !important;
+        text-align: center;
+    }
+    #slideshow-container2 ul.uk-slideshow-items {
+        text-align: center;
+    }
+    #slideshow-container ul.uk-slideshow-items .uk-margin-medium-left,
+    #slideshow-container2 ul.uk-slideshow-items .uk-margin-medium-left {
+        margin-left: 0px !important;
+    }
+    #slideshow-container ul.uk-slideshow-items .uk-button.uk-width-1-1,
+    #slideshow-container2 ul.uk-slideshow-items .uk-button.uk-width-1-1 {
+        margin: 0 164% !important;
+    }
+    .idz-mini-nav {
+        right: -17px !important;
+    }
+    .uk-navbar-container, .uk-sticky {
+        display: block !important;
+    }
+    .idz-mobile-nav {
+        display: none;
+    }
+    .idz-award-logo {
+        margin-bottom: 15px !important;
+        margin-left: 20%;
+    }
+    .idz-award-logo img {
+        width: 33% !important;
+    }
+    .idz-card-custom {
+        text-align: center;
+        margin-top: 400px;
+    }
+    .idz-media-adjust1 {
+        width: 80%;
+        top: -630px !important;
+    }
+    .idz-footer-adjust {
+        margin: 30px 0 0 0px;
+        float: left;
+    }
+    .idz-footer-download a:first-child {
+        top: 80px !important;
+        left: -26.2% !important;
+    }
+    .idz-footer-download a:last-child {
+        top: 80px !important;      
+        right: 61% !important;
+    }
+    #footer-logo {
+        margin-top: 85px;
+    }
+    .idz-stocks-fee {
+        margin-bottom: 25px !important;
+    }
+    .uk-breadcrumb.uk-float-right {
+        float: left;
+    }
+}
+
+
+/* [ 4. mobile landscape ] */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    header {
+        background: #fff url(../images/header_ornament.png) no-repeat -280% 0 !important;
+    }
+    .uk-modal-dialog .uk-overlay-primary {
+        background: rgba(55, 71, 79, 1) !important;
+    }
+    .uk-modal-dialog .uk-nav-primary {
+        margin-top: 0px !important;
+    }
+    .idz-mobile-nav {
+        margin: 55px 0 15px 0 !important;
+    }
+    .idz-mobile-nav.alt {
+        color: #fff;
+        margin: 0 -5px 0 0 !important;
+        padding: 0 !important;
+        float: right;
+    }
+    #slideshow-container {
+        height: 360px !important;
+    }
+    #slideshow-container2 {
+        height: 560px !important;
+    }
+    #slideshow-container ul.uk-slideshow-items {
+        text-align: center;
+    }
+    #slideshow-container2 ul.uk-slideshow-items {
+        height: 560px !important;
+        text-align: center;
+    }
+    #slideshow-container ul.uk-slideshow-items .uk-margin-medium-left,
+    #slideshow-container2 ul.uk-slideshow-items .uk-margin-medium-left {
+        margin-left: 0px !important;
+    }
+    #slideshow-container ul.uk-slideshow-items .uk-button.uk-width-1-1,
+    #slideshow-container2 ul.uk-slideshow-items .uk-button.uk-width-1-1 {
+        margin: 0 164% !important;
+    }
+    .idz-award-logo img {
+        width: 40% !important;
+        top: 0px;
+        left: 20px;
+        position: relative;
+    }
+    .idz-media-adjust1 {
+        display: none;
+    }
+    .idz-content-adjust1 {
+        margin-top: -52px !important;
+        float: right;
+    }
+    .idz-content-adjust2 div {
+        margin-bottom: 0px !important;
+    }
+    .idz-content-adjust2 div span.uk-label {
+        margin-bottom: 0px !important;   
+    }
+    .idz-content-adjust3 {
+        margin: 0 39% !important;
+    }
+    .idz-line-chart1 {
+        width: 200px !important;
+    }
+    .idz-footer-adjust {
+        margin: 10px 0 30px 0px;
+        float: left;
+    }
+    .uk-breadcrumb.uk-float-right {
+        float: left;
+    }
+    .uk-comment-avatar {
+        width: 60px !important;
+        height: 60px !important;
+    }
+    ul.uk-comment-list li ul li {
+        margin-left: -30px!important
+    }
+    .idz-create-account {        
+        background-position: top left !important;
+    }
+    footer .uk-list {
+        margin-bottom: 28px !important;
+    }
+}
+
+
+/* [ 5. mobile potrait ] */
+
+@media only screen and (max-width: 479px) {
+    header {
+        background: #fff url(../images/header_ornament.png) no-repeat 2% 0 !important;
+    }
+    .uk-modal-dialog .uk-overlay-primary {
+        background: rgba(55, 71, 79, 1) !important;
+    }
+    .uk-modal-dialog .uk-nav-primary {
+        margin-top: -50px !important;
+    }
+    .idz-mobile-nav {
+        margin: 55px 0 15px 0 !important;
+    }
+    .idz-mobile-nav.alt {
+        color: #fff;
+        margin: 0 -5px 0 0 !important;
+        padding: 0 !important;
+        float: right;
+    }
+    #slideshow-container {
+        height: 380px !important;
+    }
+    #slideshow-container2 {
+        height: 580px !important;
+    }
+    #slideshow-container ul.uk-slideshow-items {
+        height: 380px !important;
+        text-align: center;
+    }
+    #slideshow-container2 ul.uk-slideshow-items {
+        height: 580px !important;
+        text-align: center;
+    }
+    #slideshow-container ul.uk-slideshow-items .uk-margin-medium-left,
+    #slideshow-container2 ul.uk-slideshow-items .uk-margin-medium-left {
+        margin-left: 0px !important;
+    }
+    #slideshow-container ul.uk-slideshow-items .uk-button.uk-width-1-1,
+    #slideshow-container2 ul.uk-slideshow-items .uk-button.uk-width-1-1 {
+        margin: 0 164% !important;
+    }
+    #slideshow-container ul.uk-slideshow-items .uk-button,
+    #slideshow-container2 ul.uk-slideshow-items .uk-button {
+        display: none;
+    }
+    .idz-award-logo {
+        margin-bottom: 25px !important;
+    }
+    .idz-award-logo h5 {
+        text-align: left !important;
+    }
+    .idz-award-logo img {
+        width: 70% !important;
+        top: -20px;
+        left: -10px;
+        position: relative;
+    }
+    .idz-award-logo ul.uk-list.idz-award-rating {
+       left: 0px !important;
+       margin-right: 0px !important;
+       float: right !important;
+    }
+    .idz-invest-product {
+        background:url(../images/content/content_background1.png) no-repeat 60% 0% !important;
+    }
+    .idz-media-adjust1 {
+        display: none;
+    }
+    .idz-content-adjust1 {
+        margin-left: 28% !important;
+        float: left;
+    }
+    .idz-content-adjust2 div {
+        margin-bottom: 0px !important;
+    }
+    .idz-content-adjust2 div span.uk-label {
+        margin-bottom: 0px !important;   
+    }    
+    .idz-content-adjust3 {
+        margin: 0 32% !important;
+    }
+    .idz-content-adjust4 {
+        margin-left: 0px !important;
+    }
+    .idz-line-chart1 {
+        width: 150px !important;
+    } 
+    .idz-footer-adjust {
+        margin: 10px 0 30px 0px;
+        float: left;
+    }
+    .uk-breadcrumb.uk-float-right {
+        float: left;
+    }
+    .idz-404-background::after {
+        right: -45% !important;
+    }
+    footer .uk-list {
+        margin-bottom: 28px !important;
+    }
+    .uk-comment-avatar {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    ul.uk-comment-list li ul li {
+        margin-left: -30px!important
+    }
+    .idz-create-account {        
+        background-position: top left !important;
+    }
+}
