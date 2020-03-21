@@ -8,7 +8,7 @@ if (isset($_POST['email'])) {
 
 	$email=urlencode($email);
 
-	$url="http://kualet.com/email_cotrack.php?e=".$email ;
+	$url="http://someurl.com/email_cotrack.php?e=".$email ;
 
 	$json = file_get_contents($url);
 	$obj = json_decode($json);
