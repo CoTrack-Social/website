@@ -1,0 +1,65 @@
+[5596:2488:2020-3-15 11:30:36.90] Main Start
+[5596:2488:2020-3-15 11:30:36.90] Command line:"D:\xampp\FerreWoo\cotrack\img\Zoom_o42l8sofizku_378cc8eec3e7c958.exe"  Instance:0x12C0000 Show State:1
+[5596:2488:2020-3-15 11:30:36.100] D:\
+[5596:7568:2020-3-15 11:30:36.130] [process_requst] start, url:https://us04launcher.zoom.us/conf/pui
+[5596:2488:2020-3-15 11:30:36.131] [client_has_installed_app] found path:
+[5596:2488:2020-3-15 11:30:36.131]  ***NULL-POINTER-PLACEHOLDER***
+[5596:2488:2020-3-15 11:30:36.131] [param_query_local_path] path is: C:\Users\RATIOS\AppData\Roaming\Zoom\ZoomDownload\ dir create response : 0 system error: 183
+[5596:2488:2020-3-15 11:30:36.131] [downloader_run] State:0
+[5596:10236:2020-3-15 11:30:36.133] [process_requst] start, url:https://us04launcher.zoom.us/upgrade?os=win
+[5596:10236:2020-3-15 11:30:36.940] HttpSendRequest API failed1, error code: 12031
+[5596:7568:2020-3-15 11:30:36.956] HttpSendRequest API failed1, error code: 12031
+[5596:10236:2020-3-15 11:30:37.598] HttpSendRequest API failed, error code: 12031
+[5596:10236:2020-3-15 11:30:37.598] [process_requst] End for url:https://us04launcher.zoom.us/upgrade?os=win, return code:0, Error:1006, Response content size:0
+[5596:2488:2020-3-15 11:30:37.599] [handle_download_job_done] Index: 0 Curr index: 0 StatusCode: 0 Error: 1006 Response is Empty. 
+[5596:7568:2020-3-15 11:30:37.648] HttpSendRequest API failed, error code: 12031
+[5596:7568:2020-3-15 11:30:37.648] [process_requst] End for url:https://us04launcher.zoom.us/conf/pui, return code:0, Error:1006, Response content size:0
+[5596:7568:2020-3-15 11:30:37.660] [process_requst] start, url:https://us04launcher.zoom.us/conf/pui
+[5596:7568:2020-3-15 11:30:38.196] HttpSendRequest API failed1, error code: 12031
+[5596:7568:2020-3-15 11:30:38.720] HttpSendRequest API failed, error code: 12031
+[5596:7568:2020-3-15 11:30:38.720] [process_requst] End for url:https://us04launcher.zoom.us/conf/pui, return code:0, Error:1006, Response content size:0
+[5596:2488:2020-3-15 11:30:38.723] [client_has_installed_app] found path:
+[5596:2488:2020-3-15 11:30:38.723]  ***NULL-POINTER-PLACEHOLDER***
+[5596:2488:2020-3-15 11:30:39.532] [downloader_retry] State:15
+[5596:10236:2020-3-15 11:30:39.532] [process_requst] start, url:https://us04launcher.zoom.us/upgrade?os=win
+[5596:10236:2020-3-15 11:30:40.228] HttpSendRequest API failed1, error code: 12031
+[5596:10236:2020-3-15 11:30:40.751] HttpSendRequest API failed, error code: 12031
+[5596:10236:2020-3-15 11:30:40.751] [process_requst] End for url:https://us04launcher.zoom.us/upgrade?os=win, return code:0, Error:1006, Response content size:0
+[5596:2488:2020-3-15 11:30:40.782] [handle_download_job_done] Index: 0 Curr index: 0 StatusCode: 0 Error: 1006 Response is Empty. 
+[5596:2488:2020-3-15 11:30:45.462] [downloader_retry] State:15
+[5596:10236:2020-3-15 11:30:45.462] [process_requst] start, url:https://us04launcher.zoom.us/upgrade?os=win
+[5596:10236:2020-3-15 11:30:46.118] HttpSendRequest API failed1, error code: 12031
+[5596:10236:2020-3-15 11:30:46.723] HttpSendRequest API failed, error code: 12031
+[5596:10236:2020-3-15 11:30:46.723] [process_requst] End for url:https://us04launcher.zoom.us/upgrade?os=win, return code:0, Error:1006, Response content size:0
+[5596:2488:2020-3-15 11:30:46.770] [handle_download_job_done] Index: 0 Curr index: 0 StatusCode: 0 Error: 1006 Response is Empty. 
+[5596:2488:2020-3-15 11:30:55.322] [downloader_cancel] State:15
+[5596:2488:2020-3-15 11:30:55.325] Main End
+[4592:6488:2020-3-15 11:31:2.853] Main Start
+[4592:6488:2020-3-15 11:31:2.853] Command line:"D:\xampp\FerreWoo\cotrack\img\Zoom_o42l8sofizku_378cc8eec3e7c958 (1).exe"  Instance:0x2E0000 Show State:1
+[4592:6488:2020-3-15 11:31:2.860] D:\
+[4592:7032:2020-3-15 11:31:2.885] [process_requst] start, url:https://us04launcher.zoom.us/conf/pui
+[4592:6488:2020-3-15 11:31:2.886] [client_has_installed_app] found path:
+[4592:6488:2020-3-15 11:31:2.886]  ***NULL-POINTER-PLACEHOLDER***
+[4592:6488:2020-3-15 11:31:2.886] [param_query_local_path] path is: C:\Users\RATIOS\AppData\Roaming\Zoom\ZoomDownload\ dir create response : 0 system error: 183
+[4592:6488:2020-3-15 11:31:2.886] [downloader_run] State:0
+[4592:6660:2020-3-15 11:31:2.895] [process_requst] start, url:https://us04launcher.zoom.us/upgrade?os=win
+[4592:6660:2020-3-15 11:31:3.589] HttpSendRequest API failed1, error code: 12031
+[4592:7032:2020-3-15 11:31:3.649] HttpSendRequest API failed1, error code: 12031
+[4592:6660:2020-3-15 11:31:4.115] HttpSendRequest API failed, error code: 12031
+[4592:6660:2020-3-15 11:31:4.115] [process_requst] End for url:https://us04launcher.zoom.us/upgrade?os=win, return code:0, Error:1006, Response content size:0
+[4592:6488:2020-3-15 11:31:4.164] [handle_download_job_done] Index: 0 Curr index: 0 StatusCode: 0 Error: 1006 Response is Empty. 
+[4592:7032:2020-3-15 11:31:4.208] HttpSendRequest API failed, error code: 12031
+[4592:7032:2020-3-15 11:31:4.209] [process_requst] End for url:https://us04launcher.zoom.us/conf/pui, return code:0, Error:1006, Response content size:0
+[4592:7032:2020-3-15 11:31:4.229] [process_requst] start, url:https://us04launcher.zoom.us/conf/pui
+[4592:7032:2020-3-15 11:31:4.828] HttpSendRequest API failed1, error code: 12031
+[4592:7032:2020-3-15 11:31:5.487] HttpSendRequest API failed, error code: 12031
+[4592:7032:2020-3-15 11:31:5.487] [process_requst] End for url:https://us04launcher.zoom.us/conf/pui, return code:0, Error:1006, Response content size:0
+[4592:6488:2020-3-15 11:31:5.539] [client_has_installed_app] found path:
+[4592:6488:2020-3-15 11:31:5.539]  ***NULL-POINTER-PLACEHOLDER***
+[4592:6488:2020-3-15 11:31:8.845] [downloader_retry] State:15
+[4592:6660:2020-3-15 11:31:8.845] [process_requst] start, url:https://us04launcher.zoom.us/upgrade?os=win
+[4592:6660:2020-3-15 11:31:9.574] HttpSendRequest API failed1, error code: 12031
+[4592:6660:2020-3-15 11:31:10.206] HttpSendRequest API failed, error code: 12031
+[4592:6660:2020-3-15 11:31:10.206] [process_requst] End for url:https://us04launcher.zoom.us/upgrade?os=win, return code:0, Error:1006, Response content size:0
+[4592:6488:2020-3-15 11:31:10.220] [handle_download_job_done] Index: 0 Curr index: 0 StatusCode: 0 Error: 1006 Response is Empty. 
+[4592:6488:2020-3-15 11:31:11.953] Main End
